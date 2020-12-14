@@ -35,7 +35,7 @@ main{
 
 
  p{ 
-  font-size: 25px; 
+  font-size: 18px; 
   color: white;
   }
 
@@ -56,7 +56,7 @@ img{
  .photo-1{ 
     display: inline-block; 
     text-align: center; 
-    position: center;
+    position: center; 
   } 
 
   .photo-2{ 

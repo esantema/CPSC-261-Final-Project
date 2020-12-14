@@ -16,7 +16,7 @@
 </head>  
 <body> 
 	<header> 
-	<img src="images/logo.png" alt="Portfolio Logo" height="250" width="600" class="photo-1"> 
+	<img src="images/logo.png" alt="Portfolio Logo" height="250" width="600" class="photo-1" img-fluid> 
 	</header>  
 	<nav>    
 			<ul>
@@ -24,15 +24,11 @@
 			<li>	<a href="resume.html">Resume</a>  </li>
 			</ul>
 	</nav> 
-<main>  
-	<img src="images/me-2.jpeg" alt="Me" height="400" width="300" class="photo-2">  
-	<style> 
-		body{ 
-			background-image: url('images/background.jpg'); 
-			background-size: cover;
-		 }  
-	</style>
-	<hr>
+<main>   
+	<div class="container-fluid"> 
+				<div class="row"> 
+					<div class="col-sm-8">   
+						<hr>
 	<h2> Objective </h2> 
 
 	<p> I am a Full-time student graduating in May 2024 and seeking a paid internship in web development. I am available part-time immediately. </p>
@@ -86,10 +82,30 @@
 	<p> <b> High School Diploma</b> from Sioux Falls Christian High School.</p>
 
 	<p><b>Pursuing Degree:</b> Computer Science, Trinity Christian College in Palos Heights, IL. 
-	Coursework includes front-end developer course work in HTML, CSS and some JavaScript/jQuery </p> 
+	Coursework includes front-end developer course work in HTML, CSS and some JavaScript/jQuery </p>   
+					</div> 
+					<div class="col-sm-4">    
+						<img src="images/me-2.jpg" alt="Me" height="400" width="300" class="photo-2 img-fluid"> 
+					</div> 
+				</div> 
+	</div>
+	<img src="images/me-2.jpg" alt="Me" height="400" width="300" class="photo-2" img-fluid>  
+	<style> 
+		body{ 
+			background-image: url('images/background.jpg'); 
+			background-size: cover;
+		 }  
+	</style>
+	
 </main>   
 <footer>   
 		<small>&copy; 2020 Resume Template. All rights reserved </small>
-</footer> 
+</footer>  
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+		</script>
+	<!--jQuery, Popper, and Bootstrap Javascript files-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body> 
 </html>
